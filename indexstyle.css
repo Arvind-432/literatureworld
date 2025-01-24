@@ -1,0 +1,238 @@
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a modern font */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    padding: 20px;
+    background-image: url(img/bookbg3.jpg);
+}
+
+/* Style for headers */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    color: #34495e;
+    font-weight: 700;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/* Style for links */
+a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style for buttons */
+button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+/* Style for containers */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style for forms */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    border-color: #e74c3c;
+    outline: none;
+}
+
+/* Style for navigation bar */
+nav {
+    background-color: #34495e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    object-fit: contain;
+    aspect-ratio: 16/9;
+    width: 100px;
+    height: fit-content;
+}
+
+nav .search-box {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+nav .search-box input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 5px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #34495e;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    margin: 0;
+}
+
+nav ul li ul li a {
+    padding: 10px 15px;
+    white-space: nowrap;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #2c3e50;
+}
+
+.profilepic1 {
+    width: 230px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 90px;
+    margin: 10px auto;
+    align-items: center;
+    aspect-ratio: 4/3;
+    content: initial;
+    padding: 10px;
+
+
+    }
+    
+        
+        .footer-content {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #34495e;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+    
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    color: wheat;
+}
+.author {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    color: rgb(214, 139, 1);
+}
